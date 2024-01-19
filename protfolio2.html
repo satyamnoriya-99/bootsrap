@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+        height: 100px;
+        width: 1450px;
+        background-color: black;
+    margin:0;
+    padding: 0;
+    position: relative;
+    right: 50px;
+    } 
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    #navitem1:hover {
+    color: coral;
+    }
+    #navitem2:hover {
+    color: coral;
+    }
+    #navitem3:hover {
+    color: coral;
+    }
+    #navitem4:hover {
+    color: coral;
+    }
+    #navitem5:hover {
+    color: coral;
+    }
+    
+    .navitem6{
+        height: 50px;
+        width: 100px;
+        background-color:orange;
+        box-shadow:0px 9px 9px 0px rgb(255, 200, 0);
+        /* border: 2px solid; */
+        border-radius: 20px;
+        color: aliceblue;
+        position: relative;
+        left: 70px;
+    }
+    .navitem6:hover{
+        background-color: aliceblue;
+        color:rgb(255, 166, 0);
+    }
+    .name{
+        display: flex;
+        font-size:2rem;
+        font-weight: bold;
+        position: relative;
+        right: 140px;
+        /* bottom:40px; */
+    }
+    .info1{
+        color:aliceblue;
+        display: flex;
+        font-size: 75px;
+        font-weight: bold;
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+    .info2{
+        color:rgb(255, 166, 0);
+        display: flex;
+        font-size: 75px;
+        font-weight: bold;
+        position: relative;
+        left: 100px;
+        top: 65px;
+    }
+    .info3{
+        color:darkgrey;
+        display: flex;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        left: 100px;
+        top: 65px;
+    }
+    .hire button{
+        height: 50px;
+        width: 100px;
+        background-color:orange;
+        box-shadow:0px 9px 9px 0px rgb(255, 200, 0);
+        /* border: 2px solid; */
+        border-radius: 20px;
+        color: aliceblue;
+        position: relative;
+        top: 80px;
+        left:120px;
+    }
+    .hire button:hover{
+        background-color: aliceblue;
+        color:orange;
+    }
+    .satyam img{
+        height: 350px;
+        width: 350px;
+        display: flex;
+        position: relative;
+        left: 800px;
+        bottom: 230px;
+        border-radius: 50%;
+    }
+    .social{
+        display: flex;
+        gap: 50px;
+        position: relative;
+        left:100px;
+        bottom: 100px;
+    }
+    .instagram1{
+        height: 50px;
+        width: 100px;
+        /* background-color: orange; */
+        color: orange;
+        background-color: orange;
+        gap: 100px;   
+    }
+    .instagram2{
+        height: 50px;
+        width: 100px;
+        background-color: orange;
+        color: orange;
+        gap: 100px;   
+    }
+    .instagram3{
+        height: 50px;
+        width: 100px;
+        background-color: orange;
+        color: orange;
+        gap: 100px;   
+    }
+    .aword{
+        display: flex;
+        height: 50px;
+        width: 150px;
+        background-color: aliceblue;
+        position: relative; 
+         left: 765px; 
+         bottom: 282px;
+         border-radius: 10px;
+    }
+    .best{
+        height: 50px;
+        width: 50px;
+        box-sizing: 200px;
+        
+    }
+    font{
+        position: relative;
+        top: 10px;
+        transition: 5sec;
+        transform: left 300px;
+
+    }
+    .service1{
+        display: flex;
+        font-size:3rem;
+        font-weight: bold;
+        position: relative;
+        left: 140px;
+
+    }
+    .service2{
+        display: flex;
+        font-size:3rem;
+        font-weight: bold;
+        position: relative;
+        left: 140px;
+        top: 10px;
+color: rgb(255, 166, 0);
+    }
+
+    .service3{
+        width: 450px;
+        display: flex;
+         font-size:0.9rem;
+        font-weight: bold;
+        position: relative;
+        left: 140px;
+        top: 10px;
+        color: rgba(240, 255, 255, 0.712);
+    }
+    .box{
+        /* background-color: black; */
+        /* border: 2px solid beige; */
+        
+        border-radius: 9px;
+        height: 300px;
+        width:180px;
+        margin-left: 850px;
+        position: relative;
+        bottom: 200px;
+    }
+    .card1{
+        height: 230px;
+        width:170px ;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .png1{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 42px;
+        top: 20px;
+    }
+    .button1{
+        position: relative;
+        left: 20px;
+        top: 120px;
+        height: 35px;
+        width: 130px;
+
+        font-size:15px;
+        color: blue;
+
+    }
+    .p{
+        height:40px;
+        width: 80px;
+        position: relative;
+        left: 15px;
+        top: 50px;
+        color: rgba(0, 0, 0, 0.833);
+        font-size:20px;
+    }
+    .box2{
+        /* background-color: black; */
+        /* border: 2px solid beige; */
+        
+        border-radius: 9px;
+        height: 300px;
+        width:180px;
+        margin-left: 800px;
+        position: relative;
+        bottom: 270px;
+        right:300px;
+    }
+    .card2{
+        height: 230px;
+        width:170px ;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .png2{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 42px;
+        top: 20px;
+    }
+    .button2{
+        position: relative;
+        left: 20px;
+        top: 120px;
+        height: 35px;
+        width: 130px;
+
+        font-size:15px;
+        color: blue;
+
+    }
+    .p2{
+        height:40px;
+        width: 80px;
+        position: relative;
+        left: 15px;
+        top: 29px;
+        color: rgba(0, 0, 0, 0.833);
+        font-size:20px;
+    }
+    
+    .box3{
+        /* background-color: black; */
+        /* border: 2px solid beige; */
+        
+        border-radius: 9px;
+        height: 300px;
+        width:180px;
+        margin-left: 800px;
+        position: relative;
+        bottom: 450px;
+
+    }
+    .card3{
+        height: 230px;
+        width:170px ;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .png3{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 42px;
+        top: 20px;
+    }
+    .button3{
+        position: relative;
+        left: 20px;
+        top: 120px;
+        height: 35px;
+        width: 130px;
+
+        font-size:15px;
+        color: blue;
+
+    }
+    .p3{
+        height:40px;
+        width: 80px;
+        position: relative;
+        left: 15px;
+        top: 29px;
+        color: rgba(0, 0, 0, 0.833);
+        font-size:20px;
+    }
+    .download{
+        height: 40px;
+        width: 140px;
+        color: aliceblue;
+        background-color: orange;
+        box-shadow: 0px 9px 9px 0px orange;
+        position: relative;
+        bottom: 850px;
+    left: 180px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    }
+    .download:hover{
+        background-color: aliceblue;
+        color: orange;
+    }
+    /* .work{
+        display: flex;
+        height: 400px;
+        width: 800px;
+        background-color: blue;
+        display: inline-block;
+        position: relative;
+        bottom: 400px;
+        left: 150px;
+    } */
+    
+    .one{
+       
+       height: 300px;
+       width: 200px;
+       background-color:black;
+       
+       position: relative;
+       left: 330px;
+       bottom:400px;
+   }
+   .yearc{
+      
+       height: 100px;
+       width: 100px;
+      border-radius:50%;
+      background-color: white;
+      color: rosybrown;
+      position: relative;
+      left: 49px;
+   }
+   .num{
+       position: relative;
+       left: 30px;
+       top:25px;
+       font-size: 40px;
+   }
+   
+   .year{
+       display: flex;
+       font-size: 25px;
+       font-weight: bold;
+       color: aliceblue;
+     position: relative;
+     justify-content: center;
+     top: 90px;
+
+   }
+   .experience{
+       color: orange;
+       font-size: 25px;
+       font-weight: bold;
+       display: flex;
+       justify-content:center;
+       position: relative;
+       top: 90px;
+
+   
+   }
+   .one2{
+       
+       height: 300px;
+       width: 200px;
+       background-color: black;
+       
+       position: relative;
+       left: 550px;
+       bottom: 700px;
+   }
+   .yearc2{
+      
+       height: 100px;
+       width: 100px;
+      border-radius:50%;
+      background-color: white;
+      color: rosybrown;
+      position: relative;
+      left: 49px;
+   }
+   .num2{
+       position: relative;
+       left: 23px;
+       top:25px;
+       font-size: 40px;
+   }
+   
+   .year2{
+       display: flex;
+       font-size: 25px;
+       font-weight: bold;
+       color: aliceblue;
+     position: relative;
+     justify-content: center;
+     top: 90px;
+
+   }
+   .experience2{
+       color: orange;
+       font-size: 25px;
+       font-weight: bold;
+       display: flex;
+       justify-content:center;
+       position: relative;
+       top: 90px;
+
+   
+   }
+   .one3{
+       
+       height: 300px;
+       width: 200px;
+       background-color: black;
+       
+       position: relative;
+       left: 780px;
+       bottom: 1000px;
+   }
+   .yearc3{
+      
+       height: 100px;
+       width: 100px;
+      border-radius:50%;
+      background-color: white;
+      color: rosybrown;
+      position: relative;
+      left: 49px;
+   }
+   .num3{
+       position: relative;
+       left: 23px;
+       top:25px;
+       font-size: 40px;
+   }
+   
+   .year3{
+       display: flex;
+       font-size: 25px;
+       font-weight: bold;
+       color: aliceblue;
+     position: relative;
+     justify-content: center;
+     top: 90px;
+
+   }
+   .experience3{
+       color: orange;
+       font-size: 25px;
+       font-weight: bold;
+       display: flex;
+       justify-content:center;
+       position: relative;
+       top: 90px;
+   }
+   .work4{
+    font-size:10px;
+    font-weight: bold;
+    position: relative;
+    bottom: 1000px;
+left:100px;
+font-size: 50px;
+   }
+   .work5{
+    font-size:10px;
+    font-weight: bold;
+    position: relative;
+    bottom: 970px;
+left:100px;
+font-size: 50px;
+color: orange;
+   }
+   .work6{
+    /* font-size:10px; */
+    font-weight: bold;
+    position: relative;
+    bottom: 970px;
+left:100px;
+/* font-size: 50px; */
+color: whitesmoke;
+height: 200px;
+width: 400px;
+   }
+   .workbutton{
+    position: relative;
+    left: 100px;
+    bottom:1050px;
+    background-color: orange;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 17px;
+    color: aliceblue;
+    box-shadow: 0px 6px 9px 0px orange;
+   }
+   .workbutton:hover{
+    background-color: aliceblue;
+    color: orange;
+   }
+   .circlemain{
+   background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    left: 700px;
+    bottom: 1350px;
+   }
+.fi{
+    background-color: #fff;
+    border-radius: 50%;
+    color: black;
+    position: relative;
+    left: 700px;
+    bottom: 1350px;
+}
+.imagefi{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="nav"> <div class="name">Satyam</div>
+        <div id="navitem1">Home</div>
+        <div id="navitem2">Services</div>
+        <div id="navitem3">Interested</div>
+        <div id="navitem4">Portfolio</div>
+        <div id="navitem5">Education</div>
+       <div> <button class="navitem6">Contact</button></div> 
+    </div>
+</div>
+    <div class="info">
+        <div class="info1">Hy! I Am </div>
+        <div class="info2">Satyam Noriya</div>
+        <div class="info3"><p>I'am btech(cse) student from TIT-Bhopal (2k25 batch).currantly learning [Full Stack Developer]</p>
+        </div>
+        <span class="hire">
+        <button>Hire me</button>
+        </span>
+    </div>
+    <div class="satyam">
+    <img src="satyam pic.jpg" alt=""></div>
+    <div class="social">
+        <img class="instagram1" src="github101.jpg" alt="">
+        <img class="instagram2" src="linkedin_220343.png" alt="">
+        <img class="instagram3" src="insta101.jpg"alt="">
+        
+    </div>
+    <div class="aword" >
+    <img class="best" src="rating_5526751.png" alt="">
+    <font style="font-weight: 20; color:black;">Best Design Aword</font>
+</div>
+<div class="service1">My Awesome</div>
+<div class="service2">Service</div>
+<div class="service3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam neque, deserunt minima, eos temporibus voluptate alias laborum vel molesti.</p></div>
+<div class="box">
+<div class="card1">
+    <img class="png1" src="—Pngtree— care emoji coronavirus emoji_5366298.png" alt="">
+    <div class="p">Figma,sketch,
+        photoshop,adobe,
+        Illustrator,Adobe xd</div>
+    <div class="button">
+        <button class="button1">LEARN MORE</button>
+    </div>
+
+</div>
+</div>
+
+<div class="box2">
+    <div class="card2">
+        <img class="png2" src="emojisky.com-76155.png" alt="">
+        <div class="p2">HTML5,CSS3,
+            JavaScript,
+            ReactJs,Nodejs,
+            Express.Js,
+            Mongodb.</div>
+        <div class="button">
+            <button class="button2">LEARN MORE</button>
+        </div>
+    </div>
+    </div>
+    <div class="box3">
+        <div class="card3">
+            <img class="png3" src="—Pngtree— care emoji coronavirus emoji_5366298.png" alt="">
+            <div class="p3">Bootstrap, Material
+                 UI,Style 
+                 Components,Nextjs,
+                 Email.js,</div>
+            <!-- <div class="button3">
+                <button class="button3">LEARN MORE</button>
+            </div> -->
+            <button class="button3">LEARN MORE</button>
+        
+        </div>
+    </div>
+    <div>
+        <button class="download button">Download CV</button>
+    </div>
+    <div class="work">
+        <div class="one">
+            <div class="yearc">
+                <div class="num">1+</div>
+              
+            </div>
+            <div class="year"> year </div>
+            <div class="experience">experience</div>
+        </div>
+    </div> 
+    <div class="work2">
+        <div class="one2">
+            <div class="yearc2">
+                <div class="num2">10+</div>
+              
+            </div>
+            <div class="year2"> completed </div>
+            <div class="experience2">projects</div>
+        </div>
+
+        <div class="work3">
+            <div class="one3">
+                <div class="yearc3">
+                    <div class="num3">10+</div>
+                </div>
+                <div class="year3"> companies </div>
+                <div class="experience3">Work</div>
+            </div>
+            <div class="work4">I want to 
+                work for</div>
+                <div class="work5">These brand</div>
+                <div class="work6"><P>I'm on my way to success and success is 
+                    never final.
+                    As a software developer my success will be 
+                    to work in these FAANG companies.text
+                    It will require smart work with
+                    struggle and I'm confident that 
+                    one day I'll achieve this success.</P>
+                    </div>
+                    <button class="workbutton">Hire me</button>
+                    <div class= "workcricle">
+                    <div class="circlemain"></div>
+                   <div class="imagefi"> <img class="fi" src="fi.png" alt=""></div>
+                </div>
+
+
+                    
+</body>
+</html>
